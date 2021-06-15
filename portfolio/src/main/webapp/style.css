@@ -1,9 +1,115 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color: #fff;
+  line-height: 1.6; 
+}
+#showcase{
+    background-image:url('../images/back2.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
 }
 
-#greeting-container {
+#second{
+    background-image:url('../images/back4.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding:0 20px;
+    justify-content: center;
+}
+#projects{
+    background-image:url('../images/back4.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding:0 20px;
+    justify-content: center;
+}
+#skills{
+    background-image:url('../images/back4.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding:0 20px;
+    justify-content: center;
+}
+#contact{
+    background-image:url('../images/back4.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding:0 20px;
+    justify-content: center;
+}
+
+#seaction1{
+  display: flex;
+  font-size: 15px;
+  color: fff;
+
+}
+#second h1{
+  font-size: 50px;
+  line-height: 1.2;
+  color:#fff;
+  align-items: left;
+  text-align: left;
+  vertical-align: left;
+}
+
+#showcase .button{
+  font-size: 18px;
+  text-decoration: none;
+  color:#360deccb;
+  border: #360deccb 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
   margin-top: 20px;
+}
+
+#showcase .button:hover{
+  background: #360deccb;
+  color: #fff;
+}
+/* Add a black background color to the top navigation */
+.topnav{
+  background-color: clear;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #360deccb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #360deccb;
+  color: #fff;
 }
